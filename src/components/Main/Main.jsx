@@ -3,7 +3,7 @@ import List from "./List/List";
 
 const Main = () => {
   return <main>
-    Main
+    
     <List />
     
     </main>;

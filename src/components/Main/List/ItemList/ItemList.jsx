@@ -1,13 +1,15 @@
 import React from "react";
 
-const ItemList = ({data}) => {
+
+
+const ItemList = ({data, remove}) => {
   const {day, task, category, priority} = data;
-  return <article> Tareas por realizar:
-    <p>{day}</p>
-    <p>{task}</p>
-    <p>{category}</p>
-    <p>{priority}</p>
-    <button>ADD</button>
+  return <article>
+    <h4>Day: {day}</h4>
+    <p>Tarea: {task}</p>
+    <p>Caterogia {category}</p>
+    <p>Proridad: {priority}</p>
+    <button className="delete" onClick={remove}>Borrar</button>
     
   </article>;
 };
