@@ -1,19 +1,27 @@
   const datos = [
     {
-      title: "Tarea 1",
-      description: "Descripción de la tarea 1"
+      day: "Lunes",
+      task: "Entrega proyecto",
+      category: "Trabajo",
+      priority: "Alta" 
     },
     {
-      title: "Tarea 2",
-      description: "Descripción de la tarea 2"
+      day: "Martes",
+      task: "Limpieza casa",
+      category: "Hogar",
+      priority: "Baja" 
     },
     {
-      title: "Tarea 3",
-      description: "Descripción de la tarea 3"
+      day: "Viernes",
+      task: "Despedida de soltero",
+      category: "Fiesta",
+      priority: "Media" 
     },
     {
-      title: "Tarea 4",
-      description: "Descripción de la tarea 4"
+      day: "Domingo",
+      task: "Cocinar",
+      category: "Hogar",
+      priority: "Media"
     }
   ];
 

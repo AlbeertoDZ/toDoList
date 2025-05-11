@@ -1,10 +1,12 @@
 import React from "react";
 
 const ItemList = ({data}) => {
-  const {title, description} = data;
+  const {day, task, category, priority} = data;
   return <article> Tareas por realizar:
-    <h4>{title}</h4>
-    <p>{description}</p>
+    <p>{day}</p>
+    <p>{task}</p>
+    <p>{category}</p>
+    <p>{priority}</p>
     <button>ADD</button>
     
   </article>;
