@@ -1,0 +1,33 @@
+.btnSubmit {
+    background-color: rgb(97, 20, 178);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 12px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+select {
+    height: 40px;
+}
+
+#sectionItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

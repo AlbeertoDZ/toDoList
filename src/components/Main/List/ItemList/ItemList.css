@@ -1,3 +1,25 @@
-.delete{
-    background-color: red;
+.toDoCard {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0px 24px;
+    transition: box-shadow 0.2s;
+}
+
+.toDoCard:hover {
+    border-color: rgb(47, 239, 153);
+}
+
+.squareBtn {
+    height: 14px;
+    padding: 0px;
+    background-color:rgba(240, 248, 255, 0);
+    font-size: 0.9em;
+}
+
+.squareBtn:hover {
+    border-color: rgba(0, 0, 0, 0);
 }
